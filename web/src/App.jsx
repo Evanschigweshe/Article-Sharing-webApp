@@ -33,7 +33,6 @@ export default function App() {
         </div>
       )}
       <hr />
-      <Board user={user} refreshSignal={refresh} onRefresh={() => setRefresh(r => r+1)} />
     </div>
   )
 }
